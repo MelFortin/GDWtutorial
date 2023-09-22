@@ -2162,3 +2162,270 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.22-17.11.09:272][331]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Blueprints/Player/InputActions/IA_Look.IA_Look
 [2023.09.22-17.11.09:272][331]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Blueprints/Player/InputActions/IA_Jump.IA_Jump
 [2023.09.22-17.11.09:295][332]LogAutomationController: Ignoring very large delta of 12.81 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.09.22-17.18.02:878][510]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.22-17.18.02:883][510]LogContentBundle: [GDWtutorial_project2(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.09.22-17.18.02:883][510]LogWorldPartition: Display: GenerateStreaming for 'GDWtutorial_project2' started...
+[2023.09.22-17.18.02:888][510]LogWorldPartition: Display: GenerateStreaming for 'GDWtutorial_project2' took 4 ms (total: 159 ms)
+[2023.09.22-17.18.02:888][510]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.09.22-17.18.02:889][510]LogPlayLevel: [PlayLevel] Compiling BP_FPCharacter before play...
+[2023.09.22-17.18.02:968][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.09.22-17.18.02:971][510]LogPlayLevel: PlayLevel: Blueprint regeneration took 82 ms (1 blueprints)
+[2023.09.22-17.18.02:971][510]PIE: New page: PIE session: GDWtutorial_project2 (Sep. 22, 2023, 9:18:02 a.m.)
+[2023.09.22-17.18.02:971][510]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GDWtutorial_project2
+[2023.09.22-17.18.02:985][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013682s)
+[2023.09.22-17.18.02:985][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GDWtutorial_project2.GDWtutorial_project2 to /Game/UEDPIE_0_GDWtutorial_project2.GDWtutorial_project2 (0.013716s)
+[2023.09.22-17.18.02:997][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.09.22-17.18.02:998][510]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.22-17.18.02:999][510]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.22-17.18.02:999][510]LogAIModule: Creating AISystem for world GDWtutorial_project2
+[2023.09.22-17.18.03:000][510]LogWorldPartition: ULevel::OnLevelLoaded(GDWtutorial_project2)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.09.22-17.18.03:000][510]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.22-17.18.03:000][510]LogWorldPartition: UWorldPartition::Initialize : World = GDWtutorial_project2, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.09.22-17.18.03:000][510]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.09.22-17.18.03:003][510]LogContentBundle: [GDWtutorial_project2(Standalone)] Creating new contrainer.
+[2023.09.22-17.18.03:003][510]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 2.43 sec)
+[2023.09.22-17.18.03:003][510]LogPlayLevel: PIE: World Init took: (0.005122s)
+[2023.09.22-17.18.03:004][510]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.09.22-17.18.03:004][510]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.22-17.18.03:004][510]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.22-17.18.03:004][510]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.22-17.18.03:004][510]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.22-17.18.03:004][510]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.22-17.18.03:004][510]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.22-17.18.03:004][510]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.22-17.18.03:004][510]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.22-17.18.03:004][510]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.22-17.18.03:004][510]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.22-17.18.03:004][510]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.22-17.18.03:006][510]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.22-17.18.03:029][510]LogAudioMixer: Display: Using Audio Hardware Device Speakers (PRO)
+[2023.09.22-17.18.03:030][510]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.22-17.18.03:030][510]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.22-17.18.03:030][510]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.22-17.18.03:031][510]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.09.22-17.18.03:031][510]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.09.22-17.18.03:032][510]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.09.22-17.18.03:032][510]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.09.22-17.18.03:032][510]LogInit: FAudioDevice initialized with ID 3.
+[2023.09.22-17.18.03:032][510]LogAudio: Display: Audio Device (ID: 3) registered with world 'GDWtutorial_project2'.
+[2023.09.22-17.18.03:032][510]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2023.09.22-17.18.03:035][510]LogLoad: Game class is 'BP_GameMode_C'
+[2023.09.22-17.18.03:036][510]LogWorld: Bringing World /Game/UEDPIE_0_GDWtutorial_project2.GDWtutorial_project2 up for play (max tick rate 0) at 2023.09.22-13.18.03
+[2023.09.22-17.18.03:036][510]LogWorld: Bringing up level for play took: 0.001465
+[2023.09.22-17.18.03:038][510]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2023.09.22-17.18.03:054][510]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(10), CellsToLoad(0), CellsToUnload(0)
+[2023.09.22-17.18.03:054][510]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=125790.000 Y=13400.000 Z=99520.000,P=0.000000 Y=0.000000 R=-0.000000
+[2023.09.22-17.18.03:055][510]LogStreaming: Display: FlushAsyncLoading(): 12 QueuedPackages, 0 AsyncPackages
+[2023.09.22-17.18.03:127][510]PIE: Server logged in
+[2023.09.22-17.18.03:127][510]PIE: Play in editor total start time 0.244 seconds.
+[2023.09.22-17.18.34:415][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.22-17.18.34:416][141]LogWorld: BeginTearingDown for /Game/UEDPIE_0_GDWtutorial_project2
+[2023.09.22-17.18.34:418][141]LogWorld: UWorld::CleanupWorld for GDWtutorial_project2, bSessionEnded=true, bCleanupResources=true
+[2023.09.22-17.18.34:418][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.22-17.18.34:418][141]LogContentBundle: [GDWtutorial_project2(Standalone)] Deleting container.
+[2023.09.22-17.18.34:422][141]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.22-17.18.34:428][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.22-17.18.34:444][141]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.22-17.18.34:444][141]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2023.09.22-17.18.34:444][141]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.09.22-17.18.34:449][141]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.09.22-17.18.34:453][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.22-17.18.34:459][141]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.09.22-17.18.34:514][142]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2023.09.22-17.19.34:849][490]LogSlate: External Image Picker: DecompressImage failed
+[2023.09.22-17.19.42:325][ 82]LogSlate: Window 'Project Settings' being destroyed
+[2023.09.22-17.19.42:330][ 82]LogSlate: Window 'Project Settings' being destroyed
+[2023.09.22-17.19.56:263][496]LogSlate: External Image Picker: DecompressImage failed
+[2023.09.22-17.20.12:267][767]LogSlate: Window 'Project Settings' being destroyed
+[2023.09.22-17.20.12:272][767]LogSlate: Window 'Project Settings' being destroyed
+[2023.09.22-17.20.16:789][163]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.22-17.20.33:301][678]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2023.09.22-17.20.33:302][678]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2023.09.22-17.20.33:329][678]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/GDWtutorial_project2.GDWtutorial_project2:PersistentLevel.PlayerStart_UAID_7085C2963821A6AB01_1999634952
+[2023.09.22-17.20.33:329][678]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.09.22-17.20.33:329][678]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/GDWtutorial_project2.GDWtutorial_project2:PersistentLevel.PlayerStart_UAID_7085C2963821A6AB01_1999634952
+[2023.09.22-17.20.33:329][678]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.09.22-17.20.33:350][678]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.09.22-17.20.43:073][768]Cmd: DELETE
+[2023.09.22-17.20.43:085][768]Cmd: ACTOR DELETE
+[2023.09.22-17.20.43:401][768]LogEditorActor: Deleted Actor: PlayerStart
+[2023.09.22-17.20.43:418][768]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.09.22-17.20.43:422][768]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2023.09.22-17.20.50:484][389]Cmd: DELETE
+[2023.09.22-17.20.50:484][389]Cmd: ACTOR DELETE
+[2023.09.22-17.20.50:488][389]LogEditorActor: Deleted Actor: PlayerStart
+[2023.09.22-17.20.50:507][389]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.09.22-17.20.50:510][389]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2023.09.22-17.21.03:403][496]Cmd: DELETE
+[2023.09.22-17.21.03:403][496]Cmd: ACTOR DELETE
+[2023.09.22-17.21.03:407][496]LogEditorActor: Deleted Actor: PlayerStart
+[2023.09.22-17.21.03:427][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.09.22-17.21.03:430][496]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2023.09.22-17.21.08:980][896]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2023.09.22-17.21.08:980][896]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2023.09.22-17.21.08:984][896]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/GDWtutorial_project2.GDWtutorial_project2:PersistentLevel.PlayerStart_UAID_7085C2963821A6AB01_2035313953
+[2023.09.22-17.21.08:984][896]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.09.22-17.21.09:031][896]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/GDWtutorial_project2.GDWtutorial_project2:PersistentLevel.PlayerStart_UAID_7085C2963821A6AB01_2035313953
+[2023.09.22-17.21.09:031][896]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.09.22-17.21.09:052][896]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.09.22-17.21.11:061][ 58]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.09.22-17.21.17:651][611]Cmd: DELETE
+[2023.09.22-17.21.17:651][611]Cmd: ACTOR DELETE
+[2023.09.22-17.21.17:654][611]LogEditorActor: Deleted Actor: PlayerStart
+[2023.09.22-17.21.17:678][611]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.09.22-17.21.17:681][611]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2023.09.22-17.21.22:867][ 10]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2023.09.22-17.21.22:867][ 10]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2023.09.22-17.21.22:870][ 10]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/GDWtutorial_project2.GDWtutorial_project2:PersistentLevel.PlayerStart_UAID_7085C2963821A6AB01_2049200954
+[2023.09.22-17.21.22:870][ 10]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.09.22-17.21.22:870][ 10]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/GDWtutorial_project2.GDWtutorial_project2:PersistentLevel.PlayerStart_UAID_7085C2963821A6AB01_2049200954
+[2023.09.22-17.21.22:870][ 10]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.09.22-17.21.22:895][ 10]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.09.22-17.21.28:906][476]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.22-17.21.28:913][476]LogContentBundle: [GDWtutorial_project2(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.09.22-17.21.28:913][476]LogWorldPartition: Display: GenerateStreaming for 'GDWtutorial_project2' started...
+[2023.09.22-17.21.28:919][476]LogWorldPartition: Display: GenerateStreaming for 'GDWtutorial_project2' took 6 ms (total: 165 ms)
+[2023.09.22-17.21.28:920][476]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.22-17.21.28:920][476]PIE: New page: PIE session: GDWtutorial_project2 (Sep. 22, 2023, 9:21:28 a.m.)
+[2023.09.22-17.21.28:920][476]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GDWtutorial_project2
+[2023.09.22-17.21.28:936][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015917s)
+[2023.09.22-17.21.28:936][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GDWtutorial_project2.GDWtutorial_project2 to /Game/UEDPIE_0_GDWtutorial_project2.GDWtutorial_project2 (0.015956s)
+[2023.09.22-17.21.28:953][476]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.09.22-17.21.28:956][476]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.22-17.21.28:956][476]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.22-17.21.28:957][476]LogAIModule: Creating AISystem for world GDWtutorial_project2
+[2023.09.22-17.21.28:957][476]LogWorldPartition: ULevel::OnLevelLoaded(GDWtutorial_project2)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.09.22-17.21.28:957][476]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.22-17.21.28:957][476]LogWorldPartition: UWorldPartition::Initialize : World = GDWtutorial_project2, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.09.22-17.21.28:957][476]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.09.22-17.21.28:961][476]LogContentBundle: [GDWtutorial_project2(Standalone)] Creating new contrainer.
+[2023.09.22-17.21.28:961][476]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 2.43 sec)
+[2023.09.22-17.21.28:961][476]LogPlayLevel: PIE: World Init took: (0.005535s)
+[2023.09.22-17.21.28:962][476]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.09.22-17.21.28:962][476]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.22-17.21.28:962][476]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.22-17.21.28:962][476]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.22-17.21.28:962][476]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.22-17.21.28:962][476]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.22-17.21.28:962][476]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.22-17.21.28:962][476]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.22-17.21.28:962][476]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.22-17.21.28:962][476]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.22-17.21.28:962][476]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.22-17.21.28:962][476]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.22-17.21.28:964][476]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.22-17.21.28:989][476]LogAudioMixer: Display: Using Audio Hardware Device Speakers (PRO)
+[2023.09.22-17.21.28:990][476]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.22-17.21.28:990][476]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.22-17.21.28:990][476]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.22-17.21.28:991][476]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.09.22-17.21.28:991][476]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.09.22-17.21.28:992][476]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.09.22-17.21.28:992][476]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.09.22-17.21.28:992][476]LogInit: FAudioDevice initialized with ID 4.
+[2023.09.22-17.21.28:992][476]LogAudio: Display: Audio Device (ID: 4) registered with world 'GDWtutorial_project2'.
+[2023.09.22-17.21.28:992][476]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.09.22-17.21.28:995][476]LogLoad: Game class is 'BP_GameMode_C'
+[2023.09.22-17.21.28:996][476]LogWorld: Bringing World /Game/UEDPIE_0_GDWtutorial_project2.GDWtutorial_project2 up for play (max tick rate 0) at 2023.09.22-13.21.28
+[2023.09.22-17.21.28:996][476]LogWorld: Bringing up level for play took: 0.001488
+[2023.09.22-17.21.28:999][476]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2023.09.22-17.21.29:000][476]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(45), CellsToLoad(0), CellsToUnload(0)
+[2023.09.22-17.21.29:000][476]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-1990.000 Y=100.000 Z=2130.000,P=0.000000 Y=0.000000 R=-0.000000
+[2023.09.22-17.21.29:004][476]LogStreaming: Display: FlushAsyncLoading(): 60 QueuedPackages, 0 AsyncPackages
+[2023.09.22-17.21.29:304][476]PIE: Server logged in
+[2023.09.22-17.21.29:305][476]PIE: Play in editor total start time 0.392 seconds.
+[2023.09.22-17.22.21:755][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.22-17.22.21:755][824]LogWorld: BeginTearingDown for /Game/UEDPIE_0_GDWtutorial_project2
+[2023.09.22-17.22.21:768][824]LogWorld: UWorld::CleanupWorld for GDWtutorial_project2, bSessionEnded=true, bCleanupResources=true
+[2023.09.22-17.22.21:768][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.22-17.22.21:769][824]LogContentBundle: [GDWtutorial_project2(Standalone)] Deleting container.
+[2023.09.22-17.22.21:771][824]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.22-17.22.21:778][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.22-17.22.21:795][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.22-17.22.21:796][824]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.09.22-17.22.21:796][824]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.09.22-17.22.21:798][824]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.09.22-17.22.21:822][824]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.09.22-17.22.21:910][825]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.09.22-17.22.22:853][901]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.22-17.22.22:859][901]LogContentBundle: [GDWtutorial_project2(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.09.22-17.22.22:859][901]LogWorldPartition: Display: GenerateStreaming for 'GDWtutorial_project2' started...
+[2023.09.22-17.22.22:864][901]LogWorldPartition: Display: GenerateStreaming for 'GDWtutorial_project2' took 5 ms (total: 171 ms)
+[2023.09.22-17.22.22:865][901]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.22-17.22.22:865][901]PIE: New page: PIE session: GDWtutorial_project2 (Sep. 22, 2023, 9:22:22 a.m.)
+[2023.09.22-17.22.22:865][901]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GDWtutorial_project2
+[2023.09.22-17.22.22:880][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015479s)
+[2023.09.22-17.22.22:880][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GDWtutorial_project2.GDWtutorial_project2 to /Game/UEDPIE_0_GDWtutorial_project2.GDWtutorial_project2 (0.015511s)
+[2023.09.22-17.22.22:895][901]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.09.22-17.22.22:898][901]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.22-17.22.22:898][901]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.22-17.22.22:899][901]LogAIModule: Creating AISystem for world GDWtutorial_project2
+[2023.09.22-17.22.22:899][901]LogWorldPartition: ULevel::OnLevelLoaded(GDWtutorial_project2)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.09.22-17.22.22:899][901]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.22-17.22.22:899][901]LogWorldPartition: UWorldPartition::Initialize : World = GDWtutorial_project2, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.09.22-17.22.22:899][901]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.09.22-17.22.22:904][901]LogContentBundle: [GDWtutorial_project2(Standalone)] Creating new contrainer.
+[2023.09.22-17.22.22:904][901]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 2.44 sec)
+[2023.09.22-17.22.22:904][901]LogPlayLevel: PIE: World Init took: (0.006132s)
+[2023.09.22-17.22.22:904][901]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.09.22-17.22.22:904][901]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.22-17.22.22:904][901]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.22-17.22.22:904][901]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.22-17.22.22:904][901]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.22-17.22.22:904][901]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.22-17.22.22:904][901]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.22-17.22.22:904][901]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.22-17.22.22:905][901]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.22-17.22.22:905][901]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.22-17.22.22:905][901]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.22-17.22.22:905][901]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.22-17.22.22:907][901]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.22-17.22.22:932][901]LogAudioMixer: Display: Using Audio Hardware Device Speakers (PRO)
+[2023.09.22-17.22.22:933][901]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.22-17.22.22:933][901]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.22-17.22.22:933][901]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.22-17.22.22:933][901]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.09.22-17.22.22:933][901]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.09.22-17.22.22:935][901]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.09.22-17.22.22:935][901]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.09.22-17.22.22:935][901]LogInit: FAudioDevice initialized with ID 5.
+[2023.09.22-17.22.22:935][901]LogAudio: Display: Audio Device (ID: 5) registered with world 'GDWtutorial_project2'.
+[2023.09.22-17.22.22:935][901]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2023.09.22-17.22.22:937][901]LogLoad: Game class is 'BP_GameMode_C'
+[2023.09.22-17.22.22:939][901]LogWorld: Bringing World /Game/UEDPIE_0_GDWtutorial_project2.GDWtutorial_project2 up for play (max tick rate 0) at 2023.09.22-13.22.22
+[2023.09.22-17.22.22:939][901]LogWorld: Bringing up level for play took: 0.001473
+[2023.09.22-17.22.22:941][901]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2023.09.22-17.22.22:942][901]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(45), CellsToLoad(0), CellsToUnload(0)
+[2023.09.22-17.22.22:942][901]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-1990.000 Y=100.000 Z=2130.000,P=0.000000 Y=0.000000 R=-0.000000
+[2023.09.22-17.22.22:946][901]LogStreaming: Display: FlushAsyncLoading(): 60 QueuedPackages, 0 AsyncPackages
+[2023.09.22-17.22.23:235][901]PIE: Server logged in
+[2023.09.22-17.22.23:236][901]PIE: Play in editor total start time 0.377 seconds.
+[2023.09.22-17.23.19:682][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.09.22-17.23.19:688][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.22-17.23.19:705][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.09.22-17.23.19:721][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.09.22-17.23.19:737][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.09.22-17.23.19:741][ 51]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/GDWtutorial_project2/B/X4/ZHI54I450T53OXJALP6BH2
+[2023.09.22-17.23.19:741][ 51]LogSavePackage: Moving '../../../../../../Users/Annoy/Documents/Unreal Projects/GDWtutorial/GDWtutorial_project2/Saved/ZHI54I450T53OXJALP6BH2C32B9D27403ACC12A95AFAAA539B45CE.tmp' to '../../../../../../Users/Annoy/Documents/Unreal Projects/GDWtutorial/GDWtutorial_project2/Content/__ExternalActors__/GDWtutorial_project2/B/X4/ZHI54I450T53OXJALP6BH2.uasset'
+[2023.09.22-17.23.19:745][ 51]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/IMC_Default
+[2023.09.22-17.23.19:745][ 51]LogSavePackage: Moving '../../../../../../Users/Annoy/Documents/Unreal Projects/GDWtutorial/GDWtutorial_project2/Saved/IMC_Default2FAEA93041F1FDF3447C8B9980546073.tmp' to '../../../../../../Users/Annoy/Documents/Unreal Projects/GDWtutorial/GDWtutorial_project2/Content/Blueprints/Player/IMC_Default.uasset'
+[2023.09.22-17.23.19:747][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 31.4 sec)
+[2023.09.22-17.23.19:750][ 51]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.22-17.23.19:750][ 51]LogContentValidation: Display: Validating /Script/Engine.PlayerStart /Game/GDWtutorial_project2.GDWtutorial_project2:PersistentLevel.PlayerStart_UAID_7085C2963821A6AB01_2049200954
+[2023.09.22-17.23.19:750][ 51]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Blueprints/Player/IMC_Default.IMC_Default
+[2023.09.22-17.23.28:140][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.22-17.23.28:140][670]LogWorld: BeginTearingDown for /Game/UEDPIE_0_GDWtutorial_project2
+[2023.09.22-17.23.28:153][670]LogWorld: UWorld::CleanupWorld for GDWtutorial_project2, bSessionEnded=true, bCleanupResources=true
+[2023.09.22-17.23.28:153][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.22-17.23.28:154][670]LogContentBundle: [GDWtutorial_project2(Standalone)] Deleting container.
+[2023.09.22-17.23.28:157][670]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.22-17.23.28:164][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.22-17.23.28:188][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.22-17.23.28:189][670]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2023.09.22-17.23.28:189][670]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.09.22-17.23.28:190][670]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.09.22-17.23.28:210][670]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.09.22-17.23.28:302][671]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.09.22-17.23.32:503][986]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.09.22-17.24.10:010][486]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.09.22-17.24.10:031][486]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/GDWtutorial_project2' took 0.038
